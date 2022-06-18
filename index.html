@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo</title>
+    <title>Comment Search</title>
     <link rel="stylesheet" href="style.scss">
 </head>
 
 <body>
     <section align="center">
         <h1 class="title">Comments Search</h1>
-        <form id="search_query">
-            <input type="text" placeholder="Search by name or email" id="search-input" />
+        <form id="search_query" method="POST">
+            <input type="text" placeholder="Search..." name="search" id="search-input" />
         </form>
         <ul id="results">
             <!-- Search results go in here -->

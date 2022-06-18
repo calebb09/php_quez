@@ -1,5 +1,4 @@
 <?php
-
 /**
  * https://www.php.net/manual/en/curl.examples-basic.php
  */
